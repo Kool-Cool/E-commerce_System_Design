@@ -21,4 +21,4 @@ This is a command line-based e-commerce system that allows customers to log in, 
   - Error Handling: The system includes appropriate error handling mechanisms to handle exceptions and display meaningful error messages.
   - Well-Formatted Interface: The command line interface is designed to be user-friendly, with clear instructions and consistent messaging.
  
-for more refer doc
+for more refer **[Specification](https://github.com/Kool-Cool/E-commerce_System_Design/blob/main/Specification.docx%20(1).pdf)**
