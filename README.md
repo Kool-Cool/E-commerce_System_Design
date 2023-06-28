@@ -1,6 +1,6 @@
 # E-commerce_System_Design
 
-# E-Commerce System
+
 This is a command line-based e-commerce system that allows customers to log in, perform shopping operations, view order history, and generate consumption reports. Admin users have additional privileges to manage the system, including creating, deleting, and viewing customers, products, and orders.
 
 # Features
