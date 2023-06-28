@@ -6,22 +6,58 @@
 This is a command line-based e-commerce system that allows customers to log in, perform shopping operations, view order history, and generate consumption reports. Admin users have additional privileges to manage the system, including creating, deleting, and viewing customers, products, and orders.
 
 # Features
-- User Authentication: Users can log in using their credentials (username and password) to access the system.
-  
-- Customer Operations:
-  - Browse Products: Customers can view the available products in the system.
-  - Add to Cart: Customers can add items to their shopping cart.
-  - Make Purchases: Customers can place orders for the items in their cart.
-  - View Order History: Customers can view their past orders.
+```
+User Manual for Application XYZ
 
-- Admin Operations:
-  - Manage Customers: Admin users can create, delete, and view customer accounts.
-  - Manage Products: Admin users can create, delete, and view product listings.
-  - Manage Orders: Admin users can view order details and perform related actions.
-  - View System Statistics: Admin users can access statistical figures and reports about the system's performance.
-  - Data Storage: The system stores customer accounts, product listings, and order details in separate files or a database system.
-  - Error Handling: The system includes appropriate error handling mechanisms to handle exceptions and display meaningful error messages.
-  - Well-Formatted Interface: The command line interface is designed to be user-friendly, with clear instructions and consistent messaging.
+1. Introduction
+   The Application XYZ is a system that allows users to perform various operations such as
+  login, registration, managing products, handling orders, and generating reports.
+  This user manual provides instructions on how to use the application effectively.
+
+2. Getting Started
+   To begin using the application, follow these steps:
+   - Launch the application on your device.
+   - You will be presented with the main menu options: Login, Register, and Quit.
+
+3. Login
+   To log in to the application, follow these steps:
+   - Select the Login option from the main menu.
+   - Enter your username and password when prompted.
+   - If the credentials are correct, you will be redirected to the appropriate user menu based on your role (admin or customer).
+   - If the credentials are incorrect, an error message will be displayed.
+
+4. Register
+   To create a new user account, follow these steps:
+   - Select the Register option from the main menu.
+   - Enter a username and password when prompted.
+   - If the registration is successful, a confirmation message will be displayed.
+   - If the registration fails (e.g., username already exists), an error message will be displayed.
+
+5. Admin Menu
+   The admin menu provides the following options:
+   - Show Products: Displays a list of products.
+   - Add Customers: Allows adding new customers to the system.
+   - Show Customers: Displays a list of customers.
+   - Show Orders: Displays a list of orders.
+   - Generate Test Data: Automatically generates test data for customers and orders.
+   - Generate All Statistical Figures: Generates various statistical figures.
+   - Delete All Data: Deletes all data in the system.
+   - Logout: Logs out from the admin account and returns to the main menu.
+
+6. Customer Menu
+   The customer menu provides the following options:
+   - Show Profile: Displays the customer's profile information.
+   - Update Profile: Allows the customer to update their profile information.
+   - Show Products: Displays a list of products.
+   - Show History Orders: Displays a list of previous orders.
+   - Generate All Consumption Figures: Generates consumption figures for the customer.
+   - Logout: Logs out from the customer account and returns to the main menu.
+
+7. Conclusion
+   This user manual provides a basic guide on using the Application XYZ effectively. Please refer to the on-screen instructions and error messages for detailed information during the application's usage.
+
+
+```
  
 for more refer **[Specification](https://github.com/Kool-Cool/E-commerce_System_Design/blob/main/Specification.docx%20(1).pdf)**
 
