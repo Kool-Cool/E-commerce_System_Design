@@ -1,10 +1,73 @@
 ![Star Badge](https://img.shields.io/static/v1?label=%F0%9F%8C%9F&message=If%20Useful&style=style=flat&color=BC4E99)
 ![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
-# E-commerce_System_Design
+# E-Commerce System
 
+## Overview
 
-This is a command line-based e-commerce system that allows customers to log in, perform shopping operations, view order history, and generate consumption reports. Admin users have additional privileges to manage the system, including creating, deleting, and viewing customers, products, and orders.
+This project is an E-Commerce System designed to facilitate online shopping and order management. The system supports user registration, login, and authentication for both customers and administrators. Customers can browse products, place orders, and view their order history, while administrators have additional privileges like managing products, customers, and orders. The system also provides various statistical figures related to product sales and customer consumption.
 
+## Features
+
+- User Operations: User registration and login with encrypted passwords, role-based authentication, and user profile management.
+- Product Operations: View products in a paginated list, search products by keyword, add and delete products (for administrators), and generate statistical figures related to product sales.
+- Order Operations: Place orders with unique order IDs, view order history for customers, generate statistical figures related to customer consumption and top 10 best-selling products, and delete individual or all orders (for administrators).
+- Interface: Simple and interactive command-line interface for user interaction with clear menu options for navigation.
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.x
+- matplotlib library (for generating statistical figures)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/your-username/e-commerce-system.git
+   cd e-commerce-system
+   ```
+Install the required dependencies:
+
+```bash
+pip install matplotlib
+```
+## Usage
+To start the E-Commerce System, run the following command in the project directory:
+
+```bash
+python main.py
+```
+Follow the on-screen instructions to navigate the menu and perform various operations.
+
+## File Structure
+The project consists of the following files and directories:
+
+- **main.py**: The main program that interacts with the user and manages the application flow.
+- **user.py**: Defines the **User**, **Customer**, and **Admin** classes for user-related operations.
+- **useroperation.py**: Contains the **UserOperation** class for user-related functionalities like login, registration, and password encryption.
+- **product.py**: Defines the **Product** class for representing product information.
+- **productoperation.py**: Contains the **ProductOperation** class for product-related functionalities like listing, adding, and generating statistical figures.
+- **order.py**: Defines the Order class for representing order information.
+- **orderoperation.py**: Contains the OrderOperation class for order-related functionalities like placing orders, listing, and generating statistical figures.
+- **interface.py**: Defines the InterfaceClass class for displaying menus and user interactions.
+- **data**: Directory containing text files to store user, product, and order data.
+- data/figure: Directory for storing generated statistical figures.
+
+## Functionality
+The E-Commerce System offers the following functionalities:
+
+- User Operations: Registration, login, and profile management for both customers and administrators.
+- Product Operations: Listing, search, add, and delete products (for administrators), and generate statistical figures related to products.
+- Order Operations: Place orders, view order history, and generate statistical figures for customer consumption and best-selling products.
+- Interface: A user-friendly command-line interface for easy navigation and interaction.
+
+## Contributing
+Contributions to this project are welcome. Feel free to create pull requests for bug fixes, new features, or improvements.
+
+## License
+This project is licensed under the MIT License. You are free to use, modify, and distribute it as per the terms of the license.
 # Features
 ```
 User Manual for Application XYZ
